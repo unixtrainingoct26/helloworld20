@@ -26,7 +26,7 @@ pipeline {
         stage('deploy'){
         steps {
           echo "deploy war file"
-          sleep 10
+          build 'project_16'
         }
       
       

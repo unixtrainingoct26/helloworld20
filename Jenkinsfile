@@ -28,7 +28,7 @@ pipeline {
         stage('deploy'){
         steps {
           echo "deploy war file"
-         echo 'deploying the application
+         echo 'deploying the application'
             
         }
       
